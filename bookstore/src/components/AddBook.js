@@ -31,7 +31,7 @@ const AddBook = () => {
 
   const sendRequest = async () => {
     await axios
-      .post("https://bookstore-ywui.onrender.com/books", {
+      .post("https://bookstore-bqw6.onrender.com/books", {
         name: String(inputs.name),
         author: String(inputs.author),
         description: String(inputs.description),
